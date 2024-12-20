@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/preetimishra2/portfolio.git/static/css/main.862934ed.css",
+    "main.js": "/preetimishra2/portfolio.git/static/js/main.200780d0.js",
+    "static/js/488.f18d948e.chunk.js": "/preetimishra2/portfolio.git/static/js/488.f18d948e.chunk.js",
+    "static/media/image.jpg": "/preetimishra2/portfolio.git/static/media/image.53f4f3f4ca4e166fe91b.jpg",
+    "static/media/resume.pdf": "/preetimishra2/portfolio.git/static/media/resume.a95cea1e4a44ffff5b5c.pdf",
+    "static/media/HighRadius1.jpg": "/preetimishra2/portfolio.git/static/media/HighRadius1.98f7034401cd2f53d449.jpg",
+    "static/media/HighRadius2.jpg": "/preetimishra2/portfolio.git/static/media/HighRadius2.bce04ca86bef1a014ac7.jpg",
+    "static/media/ToDo1.PNG": "/preetimishra2/portfolio.git/static/media/ToDo1.e0c6c2bd14661de4ee8d.PNG",
+    "static/media/ToDo2.PNG": "/preetimishra2/portfolio.git/static/media/ToDo2.4bad6abdf7912334a750.PNG",
+    "index.html": "/preetimishra2/portfolio.git/index.html",
+    "main.862934ed.css.map": "/preetimishra2/portfolio.git/static/css/main.862934ed.css.map",
+    "main.200780d0.js.map": "/preetimishra2/portfolio.git/static/js/main.200780d0.js.map",
+    "488.f18d948e.chunk.js.map": "/preetimishra2/portfolio.git/static/js/488.f18d948e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.862934ed.css",
+    "static/js/main.200780d0.js"
+  ]
+}
