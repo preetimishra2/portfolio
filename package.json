@@ -1,8 +1,8 @@
 {
-  "homepage": "https://preetimishra2.github.io/portfolio",
+  "homepage": "https://preetimishra2.github.io/portfolio/",
   "name": "preetimishraportfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   
   "dependencies": {
     "cra-template": "1.2.0",
