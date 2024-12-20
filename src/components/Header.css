@@ -1,0 +1,50 @@
+/* Header.css */
+.header {
+    background-color: #23232b; 
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    color: #f0f0f0; 
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    font-size: 16px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #f0f0f0; 
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #f9a826; 
+  }
+  .font-link {
+    font-family: 'Hanalei Fill', cursive;
+  }
+ 
+  

@@ -1,0 +1,127 @@
+.home-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  text-align: center;
+  z-index: 10;
+  display: inline-flex;
+}
+
+.profile-pic {
+  width: 250px;
+  border-radius: 90%;
+  margin-left: 10%;
+}
+
+.intro-text {
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 40px; /* Add space between image and text */
+}
+
+.bio-text {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 20px; /* Add space between text and bio */
+  line-height: 1.6;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.bio {
+  background: rgba(2, 4, 2, 0.5);
+}
+
+.social-icons {
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-right: 20px;
+}
+
+.icon:hover {
+  color: #FFD700; /* Golden color on hover */
+}
+
+.resume-button {
+  padding: 8px 16px;
+  background-color: #ff5733; /* Bright color for button */
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #c4451a; /* Darker shade on hover */
+}
+
+/* Mobile-Specific Styles */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-pic {
+    width: 150px;
+    margin: 0 auto; /* Center the profile picture */
+  }
+
+  .bio-text {
+    font-size: 1rem;
+    margin-top: 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bio {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .social-icons {
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .resume-button {
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-text {
+    font-size: 1.5rem;
+  }
+
+  .bio-text {
+    font-size: 0.9rem;
+  }
+
+  .profile-pic {
+    width: 120px;
+  }
+
+  .bio {
+    padding: 15px;
+  }
+}
