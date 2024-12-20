@@ -1,16 +1,20 @@
 .footer {
-    background-color: #0d0d0d;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 1rem;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  background-color: #0d0d0d;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+  line-height: 1.5;
+}
+@media (min-width: 480px) {
+  .font-link {
+    font-family: "Hanalei Fill", cursive;
   }
-  
-  .footer p {
-    margin: 0;
-    line-height: 1.5;
-  }
-  
+}
