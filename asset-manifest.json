@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c3ab9274.css",
+    "main.js": "/portfolio/static/js/main.d51306e9.js",
+    "static/js/488.f18d948e.chunk.js": "/portfolio/static/js/488.f18d948e.chunk.js",
+    "static/media/Pictography1.PNG": "/portfolio/static/media/Pictography1.195f01ef6dfc9a6816e8.PNG",
+    "static/media/image.jpg": "/portfolio/static/media/image.53f4f3f4ca4e166fe91b.jpg",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.3da21e5970b2e097279d.pdf",
+    "static/media/HighRadius1.jpg": "/portfolio/static/media/HighRadius1.98f7034401cd2f53d449.jpg",
+    "static/media/HighRadius2.jpg": "/portfolio/static/media/HighRadius2.bce04ca86bef1a014ac7.jpg",
+    "static/media/Weather2.PNG": "/portfolio/static/media/Weather2.255497420d836a6a4508.PNG",
+    "static/media/ToDo1.PNG": "/portfolio/static/media/ToDo1.e0c6c2bd14661de4ee8d.PNG",
+    "static/media/Weather1.PNG": "/portfolio/static/media/Weather1.0e5f56b71979cf5eab64.PNG",
+    "static/media/ToDo2.PNG": "/portfolio/static/media/ToDo2.4bad6abdf7912334a750.PNG",
+    "index.html": "/portfolio/index.html",
+    "main.c3ab9274.css.map": "/portfolio/static/css/main.c3ab9274.css.map",
+    "main.d51306e9.js.map": "/portfolio/static/js/main.d51306e9.js.map",
+    "488.f18d948e.chunk.js.map": "/portfolio/static/js/488.f18d948e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3ab9274.css",
+    "static/js/main.d51306e9.js"
+  ]
+}
