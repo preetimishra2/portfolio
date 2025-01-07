@@ -110,7 +110,7 @@ const About = () => {
         <h2 className="section-title">Education</h2>
         <div className="education">
           <h3>Indian Institute of Technology, Roorkee</h3>
-          <p>Post Graduation in Software Engineering - Present</p>
+          <p>Post Graduation in Software Engineering - 2024</p>
         </div>
         <div className="education">
           <h3>Kalinga Institute of Industrial Technology, Bhubaneswar</h3>

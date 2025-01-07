@@ -7,6 +7,9 @@ import ToDo2 from "../pictures/ToDo2.PNG";
 import Pictography1 from "../pictures/Pictography1.PNG";
 import Weather1 from "../pictures/Weather1.PNG";
 import Weather2 from "../pictures/Weather2.PNG";
+import BlogPro1 from "../pictures/BlogPro1.PNG";
+import BlogPro2 from "../pictures/BlogPro2.PNG";
+import BlogPro3 from "../pictures/BlogPro3.PNG";
 const Experience = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
@@ -20,8 +23,8 @@ const Experience = () => {
     },
     {
       title: "BlogPro - Blogging Website",
-      screenshots: [],
-      url:"",
+      screenshots: [BlogPro1, BlogPro2, BlogPro3],
+      url:"https://blogprofrontend.onrender.com",
       description:
         "A blogging platform using MERN stack for users to write, publish, and share their thoughts. Features include post categorization, rich text editor, and user authentication.",
     },
