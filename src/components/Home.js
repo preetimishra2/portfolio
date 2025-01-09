@@ -4,6 +4,9 @@ import { loadFull } from "tsparticles";
 import "./Home.css";
 import profileImage from "../pictures/image.jpg";
 import resumeFile from "../files/resume.pdf";
+import About from "../components/About";
+import Experience from "./Experience";
+import Contact from "./Contact";
 
 const Home = () => {
   const particlesInit = async (main) => {
@@ -36,7 +39,7 @@ const Home = () => {
             },
             modes: {
               repulse: {
-                distance: 100,
+                distance: 33,
                 duration: 1,
               },
               push: {
@@ -46,7 +49,7 @@ const Home = () => {
           },
           particles: {
             number: {
-              value: 200,
+              value: 1200,
             },
             color: {
               value: ["#FFD700", "#C0C0C0", "#734f96", "#B87333"],
@@ -55,10 +58,10 @@ const Home = () => {
               type: "square",
             },
             opacity: {
-              value: 0.8,
+              value: 0.5,
             },
             size: {
-              value: 6,
+              value: 2,
             },
             move: {
               enable: true,
