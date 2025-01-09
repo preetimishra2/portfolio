@@ -3,7 +3,6 @@
   "name": "preetimishraportfolio",
   "version": "0.1.0",
   "private": false,
-  
   "dependencies": {
     "cra-template": "1.2.0",
     "emailjs-com": "^3.2.0",
@@ -42,6 +41,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0"
+    "gh-pages": "^6.3.0"
   }
 }
