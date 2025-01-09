@@ -39,35 +39,46 @@ const Home = () => {
             },
             modes: {
               repulse: {
-                distance: 33,
+                distance: 50,
                 duration: 1,
               },
               push: {
-                particles_nb: 5,
+                particles_nb: 3, 
               },
             },
           },
           particles: {
             number: {
-              value: 1200,
+              value: 200, 
             },
             color: {
-              value: ["#FFD700", "#C0C0C0", "#734f96", "#B87333"],
+              value: "#ffffff", 
             },
             shape: {
-              type: "square",
+              type: "circle", 
             },
             opacity: {
-              value: 0.5,
+              value: 0.3,
             },
             size: {
-              value: 2,
+              value: 1, 
             },
             move: {
               enable: true,
-              speed: 2,
+              speed: 1,
               direction: "none",
               random: true,
+              straight: false,
+              outModes: {
+                default: "out",
+              },
+            },
+            line_linked: {
+              enable: true, 
+              distance: 100, 
+              color: "#ffffff",
+              opacity: 0.3,
+              width: 0.4,
             },
           },
         }}
