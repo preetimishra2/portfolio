@@ -4,9 +4,6 @@ import { loadFull } from "tsparticles";
 import "./Home.css";
 import profileImage from "../pictures/image.jpg";
 import resumeFile from "../files/resume.pdf";
-import About from "../components/About";
-import Experience from "./Experience";
-import Contact from "./Contact";
 
 const Home = () => {
   const particlesInit = async (main) => {
