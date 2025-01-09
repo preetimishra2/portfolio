@@ -43,7 +43,9 @@
 .nav-link:hover {
   color: #ffd700;
 }
-
+.menu-toggle {
+  display: none;
+}
 /* Mobile-Specific Styles */
 @media (max-width: 768px) {
   .navbar {
@@ -78,7 +80,7 @@
 
 @media (max-width: 480px) {
   .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .nav-link {
