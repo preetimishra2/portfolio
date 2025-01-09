@@ -2,10 +2,9 @@
   background-color: #0d0d0d;
   color: #fff;
   text-align: center;
-  padding: 10px 0;
+  padding: 1rem 0;
   font-size: 1rem;
   position: relative;
-  bottom: 0;
   width: 100%;
 }
 
@@ -13,8 +12,42 @@
   margin: 0;
   line-height: 1.5;
 }
-@media (min-width: 480px) {
-  .font-link {
-    font-family: "Hanalei Fill", cursive;
+
+.social-icons {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #ffd700; /* Golden color on hover */
+}
+
+/* Mobile-Specific Styles */
+@media (max-width: 768px) {
+  .footer p {
+    font-size: 0.9rem;
+  }
+
+  .icon {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer p {
+    font-size: 0.8rem;
+  }
+
+  .icon {
+    font-size: 1.2rem;
   }
 }
