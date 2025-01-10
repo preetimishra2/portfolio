@@ -12,7 +12,10 @@ const Header = () => {
   return (
     <header className="header font-link">
       <nav className="navbar">
-        <div className="navbar-brand">Preeti Mishra</div>
+        {/* Make the brand name clickable */}
+        <Link to="/portfolio" className="navbar-brand" onClick={() => setMenuOpen(false)}>
+          Preeti Mishra
+        </Link>
         <div className="menu-toggle" onClick={toggleMenu}>
           {menuOpen ? '✖' : '☰'}
         </div>

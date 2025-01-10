@@ -124,3 +124,34 @@
     padding: 15px;
   }
 }
+.quick-access {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.quick-access-title {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.quick-access-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.quick-access-button {
+  padding: 10px 20px;
+  background-color: #ff5733;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  transition: background-color 0.3s ease;
+}
+
+.quick-access-button:hover {
+  background-color: #c4451a;
+}

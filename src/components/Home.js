@@ -1,11 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import "./Home.css";
 import profileImage from "../pictures/image.jpg";
 import resumeFile from "../files/resume.pdf";
+import { Link } from "react-router-dom";
 
 const Home = () => {
+  const [lineOpacity, setLineOpacity] = useState(0.3);
+  const [particleOpacity, setParticleOpacity] = useState(0.3);
+
+  useEffect(() => {
+    const updateOpacity = () => {
+      if (window.innerWidth > 1024) {
+        setLineOpacity(0.7); // Higher opacity for lines on desktops
+        setParticleOpacity(0.7); // Higher opacity for particles on desktops
+      } else {
+        setLineOpacity(0.3); // Default opacity for lines
+        setParticleOpacity(0.3); // Default opacity for particles
+      }
+    };
+
+    updateOpacity();
+    window.addEventListener("resize", updateOpacity);
+    return () => window.removeEventListener("resize", updateOpacity);
+  }, []);
+
   const particlesInit = async (main) => {
     await loadFull(main);
   };
@@ -40,25 +60,25 @@ const Home = () => {
                 duration: 1,
               },
               push: {
-                particles_nb: 3, 
+                particles_nb: 3,
               },
             },
           },
           particles: {
             number: {
-              value: 200, 
+              value: 200,
             },
             color: {
-              value: "#ffffff", 
+              value: "#ffffff",
             },
             shape: {
-              type: "circle", 
+              type: "circle",
             },
             opacity: {
-              value: 0.3,
+              value: particleOpacity, // Dynamic particle opacity
             },
             size: {
-              value: 1, 
+              value: 1,
             },
             move: {
               enable: true,
@@ -71,21 +91,17 @@ const Home = () => {
               },
             },
             line_linked: {
-              enable: true, 
-              distance: 100, 
+              enable: true,
+              distance: 100,
               color: "#ffffff",
-              opacity: 0.3,
+              opacity: lineOpacity, // Dynamic line opacity
               width: 0.4,
             },
           },
         }}
       />
       <div className="content">
-        <img
-          src={profileImage}
-          alt="Preeti Mishra"
-          className="profile-pic"
-        />
+        <img src={profileImage} alt="Preeti Mishra" className="profile-pic" />
         <div className="bio">
           <h1 className="intro-text">Hi, I'm Preeti Mishra.</h1>
           <p className="bio-text">
@@ -118,6 +134,21 @@ const Home = () => {
             >
               Download Resume
             </a>
+          </div>
+          {/* Quick Access Section */}
+          <div className="quick-access">
+            <h2 className="quick-access-title">Explore</h2>
+            <div className="quick-access-buttons">
+              <Link to="/about" className="quick-access-button">
+                About
+              </Link>
+              <Link to="/experience" className="quick-access-button">
+                Projects
+              </Link>
+              <Link to="/contact" className="quick-access-button">
+                Contact Me
+              </Link>
+            </div>
           </div>
         </div>
       </div>
