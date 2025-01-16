@@ -10,8 +10,8 @@ import Weather2 from "../pictures/Weather2.PNG";
 import BlogPro1 from "../pictures/BlogPro1.PNG";
 import BlogPro2 from "../pictures/BlogPro2.PNG";
 import BlogPro3 from "../pictures/BlogPro3.PNG";
-import SA1 from "../pictures/SA1";
-import SA2 from "../pictures/SA2";
+import SA1 from "../pictures/SA1.PNG";
+import SA2 from "../pictures/SA2.PNG";
 
 const Experience = () => {
   const [selectedProject, setSelectedProject] = useState(null);
