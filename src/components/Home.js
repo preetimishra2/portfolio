@@ -13,11 +13,11 @@ const Home = () => {
   useEffect(() => {
     const updateOpacity = () => {
       if (window.innerWidth > 1024) {
-        setLineOpacity(0.7); // Higher opacity for lines on desktops
-        setParticleOpacity(0.7); // Higher opacity for particles on desktops
+        setLineOpacity(0.7); 
+        setParticleOpacity(0.7); 
       } else {
-        setLineOpacity(0.3); // Default opacity for lines
-        setParticleOpacity(0.3); // Default opacity for particles
+        setLineOpacity(0.3); 
+        setParticleOpacity(0.3); 
       }
     };
 
@@ -75,7 +75,7 @@ const Home = () => {
               type: "circle",
             },
             opacity: {
-              value: particleOpacity, // Dynamic particle opacity
+              value: particleOpacity, 
             },
             size: {
               value: 1,
@@ -94,7 +94,7 @@ const Home = () => {
               enable: true,
               distance: 100,
               color: "#ffffff",
-              opacity: lineOpacity, // Dynamic line opacity
+              opacity: lineOpacity,
               width: 0.4,
             },
           },

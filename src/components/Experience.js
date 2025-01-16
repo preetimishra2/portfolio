@@ -10,6 +10,8 @@ import Weather2 from "../pictures/Weather2.PNG";
 import BlogPro1 from "../pictures/BlogPro1.PNG";
 import BlogPro2 from "../pictures/BlogPro2.PNG";
 import BlogPro3 from "../pictures/BlogPro3.PNG";
+import SA1 from "../pictures/SA1";
+import SA2 from "../pictures/SA2";
 
 const Experience = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -31,11 +33,11 @@ const Experience = () => {
         "A blogging platform using MERN stack for users to write, publish, and share their thoughts. Features include post categorization, rich text editor, and user authentication.",
     },
     {
-      title: "Quora2.0 - Quora-like Website",
-      screenshots: [],
-      url:"",
+      title: "Sorting Visualizer",
+      screenshots: [SA1, SA2],
+      url:"https://preetimishra2.github.io/sortingvisualizer/",
       description:
-        "A question-and-answer website inspired by Quora using MERN stack. Built with a robust backend and user-friendly interface.",
+        "A web application for visualizing an array and use sorting algorithms to sort it using a graph.",
     },
     {
       title: "Data Visualization Application",
@@ -112,7 +114,7 @@ const Experience = () => {
                   key={index}
                   src={screenshot}
                   alt={`Screenshot ${index + 1} of ${selectedProject.title}`}
-                  onClick={() => setSelectedImage(screenshot)} // Open image in pop-out view
+                  onClick={() => setSelectedImage(screenshot)} 
                 />
               ))}
             </div>
