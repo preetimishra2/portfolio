@@ -12,6 +12,10 @@ import BlogPro2 from "../pictures/BlogPro2.PNG";
 import BlogPro3 from "../pictures/BlogPro3.PNG";
 import SA1 from "../pictures/SA1.PNG";
 import SA2 from "../pictures/SA2.PNG";
+import Ecommerce1 from "../pictures/Ecommerce1.PNG";
+import Ecommerce2 from "../pictures/Ecommerce2.PNG";
+import Ecommerce3 from "../pictures/Ecommerce3.PNG";
+import Ecommerce4 from "../pictures/Ecommerce4.PNG";
 
 const Experience = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -37,14 +41,14 @@ const Experience = () => {
       screenshots: [SA1, SA2],
       url:"https://preetimishra2.github.io/sortingvisualizer/",
       description:
-        "A web application for visualizing an array and use sorting algorithms to sort it using a graph.",
+        "A web application using React JS and data structures, for visualizing an array and use sorting algorithms to sort it using a graph.",
     },
     {
-      title: "Data Visualization Application",
-      screenshots: [],
-      url:"",
+      title: "All In One Place - An Ecommerce Platform",
+      screenshots: [Ecommerce1, Ecommerce2, Ecommerce3, Ecommerce4],
+      url:"https://allinoneplaceshopping.netlify.app/",
       description:
-        "A web application for visualizing large datasets using interactive charts and graphs. Built with React & Nodejs.",
+        "An ecommerce platform, using MERN stack, which includes two type of users for ease of use. If the user is a customer, they can view, search and order the products. If the user is an admin, they can add, edit or delete products.",
     },
     {
       title: "Pictography - Search Engine for Images",
