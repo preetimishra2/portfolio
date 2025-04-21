@@ -105,7 +105,7 @@ const Home = () => {
         <div className="bio">
           <h1 className="intro-text">Hi, I'm Preeti Mishra.</h1>
           <p className="bio-text">
-            I'm a Software Developer with 3+ years of experience in JavaScript,
+            I'm a Software Developer with 4 years of experience in JavaScript,
             ReactJS, NodeJS, AWS, and AEM. Passionate about building scalable
             solutions and contributing to impactful projects. Currently pursuing
             my Post Graduation in Software Engineering at IIT Roorkee.
