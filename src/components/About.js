@@ -8,11 +8,7 @@ const About = () => {
       <section className="summary-section">
         <h1 className="section-title">About Me</h1>
         <p className="summary-text">
-          I am Preeti Mishra, a Software Developer with 3+ years of experience
-          in JavaScript, ReactJS, NodeJS, AWS, and AEM. Passionate about
-          creating scalable, secure, and innovative software solutions, I am
-          currently pursuing Post Graduation in Software Engineering at IIT
-          Roorkee.
+          I am Preeti Mishra, a Software Developer with 4 years of experience. Passionate about creating scalable, secure, and innovative software solutions.
         </p>
       </section>
 
