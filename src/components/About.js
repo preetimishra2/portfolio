@@ -8,7 +8,9 @@ const About = () => {
       <section className="summary-section">
         <h1 className="section-title">About Me</h1>
         <p className="summary-text">
-          I am Preeti Mishra, a Software Developer with 4 years of experience. Passionate about creating scalable, secure, and innovative software solutions.
+          I am Preeti Mishra, a Software Developer with 4+ years of experience building scalable,
+          production-grade applications using React Native, ReactJS, NodeJS, and AWS. I have a strong
+          foundation in Data Structures & Algorithms, cloud development, and cross-platform design. I’m passionate about creating secure, high-performing, and user-focused software.
         </p>
       </section>
 
@@ -16,20 +18,25 @@ const About = () => {
       <section className="skills-section">
         <h2>Skills</h2>
         <div className="skills-icons">
-          {/* Add skill icons here */}
           {[
             { icon: "fab fa-html5", name: "HTML5" },
             { icon: "fab fa-css3-alt", name: "CSS3" },
             { icon: "fab fa-js-square", name: "JavaScript" },
             { icon: "fab fa-react", name: "ReactJS" },
-            { icon: "fab fa-bootstrap", name: "Bootstrap" },
-            { icon: "fas fa-wind", name: "Tailwind CSS" },
-            { icon: "fab fa-sass", name: "SASS" },
             { icon: "fab fa-node", name: "NodeJS" },
+            { icon: "fas fa-database", name: "MongoDB" },
             { icon: "fab fa-aws", name: "AWS" },
+            { icon: "fab fa-java", name: "Java" },
+            { icon: "fas fa-code", name: "C++" },
+            { icon: "fab fa-python", name: "Python" },
+            { icon: "fas fa-database", name: "SQL" },
             { icon: "fab fa-angular", name: "Angular" },
             { icon: "fas fa-cogs", name: "AEM" },
-            { icon: "fas fa-database", name: "MongoDB" },
+            { icon: "fas fa-brain", name: "Machine Learning" },
+            { icon: "fas fa-project-diagram", name: "Data Structures" },
+            { icon: "fas fa-vial", name: "Postman" },
+            { icon: "fab fa-github", name: "GitHub" },
+            { icon: "fas fa-laptop-code", name: "Jira" },
           ].map((skill, index) => (
             <div className="skill-item" key={index}>
               <i className={skill.icon}></i>
@@ -45,41 +52,43 @@ const About = () => {
         <div className="timeline">
           {[
             {
-              role: "Custom Software Engineer",
+              role: "Custom Software Engineering Analyst",
               company: "Accenture",
-              date: "June 2023 - Present",
+              date: "May 2021 – Present",
               tasks: [
-                "Developed web applications, improving speed by 8%.",
-                "Supervised a team of 3 and managed client interactions.",
-                "Integrated third-party APIs and ensured on-time delivery.",
+                "Built cross-platform apps using React Native, ReactJS, Node.js, and MongoDB.",
+                "Integrated RESTful APIs and third-party tools like Google Maps.",
+                "Led deployment and architecture design with a modular approach.",
+                "Worked in Agile teams using Jira, GitLab, and CI/CD practices.",
               ],
             },
             {
               role: "Application Development Associate",
               company: "Accenture",
-              date: "May 2021 - June 2023",
+              date: "Earlier Phase within Accenture Role",
               tasks: [
-                "Maintained e-commerce websites with cross-browser usability.",
-                "Implemented social media and newsletter features.",
-                "Created unit test cases for code fixes.",
+                "Created reusable web components using AEM and Vanilla JS.",
+                "Implemented Sling Models and templates for data-binding.",
+                "Maintained version-controlled pipelines with peer-reviewed code.",
               ],
             },
             {
               role: "Full Stack Intern",
               company: "HighRadius",
-              date: "May 2020 - June 2020",
+              date: "April 2020 – June 2020",
               tasks: [
-                "Developed an AI-enabled FinTech B2B Invoice Management Application.",
-                "Used ReactJS, Machine Learning, and SQL to process data.",
+                "Developed a FinTech invoice management app using ReactJS and Java.",
+                "Created a dashboard with dynamic charts, filters, and real-time updates.",
+                "Integrated ML for payment prediction and a chatbot for invoice queries.",
               ],
             },
             {
-              role: "Android Summer Intern",
-              company: "IIT, Bhubaneswar",
-              date: "May 2019 - June 2019",
+              role: "React Native Intern",
+              company: "IIT Bhubaneswar",
+              date: "May 2019 – June 2019",
               tasks: [
-                "Developed an Android application from scratch with a modern user interface and intuitive user experience.",
-                "Used Android for user interaction and SQL in backend.",
+                "Built a React Native schedule app with SQL-based local storage.",
+                "Focused on performance, UI/UX clarity, and cross-platform support.",
               ],
             },
           ].map((experience, index) => (
@@ -106,11 +115,11 @@ const About = () => {
         <h2 className="section-title">Education</h2>
         <div className="education">
           <h3>Indian Institute of Technology, Roorkee</h3>
-          <p>Post Graduation in Software Engineering - 2024</p>
+          <p>Masters in Software Development – 2024–2025</p>
         </div>
         <div className="education">
           <h3>Kalinga Institute of Industrial Technology, Bhubaneswar</h3>
-          <p>B.Tech in Information Technology - 2021</p>
+          <p>B.Tech in Information Technology – 2017–2021</p>
         </div>
       </section>
 
@@ -118,12 +127,12 @@ const About = () => {
       <section className="achievements-section">
         <h2 className="section-title">Achievements</h2>
         <ul className="achievements-list">
-          <li>AWS Certified Cloud Practitioner - October 2023</li>
-          <li>Star Performer of the Month - May 2024</li>
-          <li>iChamp Award for Client Value Creation - August 2023</li>
-          <li>Best People Award in Accenture (twice)</li>
-          <li>Qualified in Codevita National Coding Challenge 2021</li>
-          <li>Selected for Mentorship in Teksystems - 2021</li>
+          <li>AWS Certified Cloud Practitioner – Foundational</li>
+          <li>Star Performer of the Month (twice) – Accenture</li>
+          <li>Client Value Creation Award – Accenture</li>
+          <li>Nurturing Minds & Leadership Award – Accenture</li>
+          <li>Selected for Mentorship – Teksystems (2021)</li>
+          <li>Qualified in Codevita National Coding Challenge – TCS (2021)</li>
         </ul>
       </section>
     </div>

@@ -13,11 +13,11 @@ const Home = () => {
   useEffect(() => {
     const updateOpacity = () => {
       if (window.innerWidth > 1024) {
-        setLineOpacity(0.7); 
-        setParticleOpacity(0.7); 
+        setLineOpacity(0.7);
+        setParticleOpacity(0.7);
       } else {
-        setLineOpacity(0.3); 
-        setParticleOpacity(0.3); 
+        setLineOpacity(0.3);
+        setParticleOpacity(0.3);
       }
     };
 
@@ -75,7 +75,7 @@ const Home = () => {
               type: "circle",
             },
             opacity: {
-              value: particleOpacity, 
+              value: particleOpacity,
             },
             size: {
               value: 1,
@@ -100,22 +100,24 @@ const Home = () => {
           },
         }}
       />
+
       <div className="content">
         <img src={profileImage} alt="Preeti Mishra" className="profile-pic" />
         <div className="bio">
           <h1 className="intro-text">Hi, I'm Preeti Mishra.</h1>
           <p className="bio-text">
-            I'm a Software Developer with 4 years of experience in JavaScript,
-            ReactJS, NodeJS, AWS, and AEM. Passionate about building scalable
-            solutions and contributing to impactful projects. Currently pursuing
-            my Post Graduation in Software Engineering at IIT Roorkee.
+            Software Developer with 4+ years of experience in ReactJS, NodeJS, MongoDB, AWS, and AEM.
+            Skilled in building scalable apps and cloud-native solutions. Currently pursuing PG in Software
+            Engineering at IIT Roorkee and constantly solving DSA on LeetCode.
           </p>
+
           <div className="social-icons">
             <a
               href="https://www.linkedin.com/in/preeti-mishra-a18b1a19b"
               target="_blank"
               rel="noopener noreferrer"
               className="icon"
+              title="LinkedIn"
             >
               <i className="fab fa-linkedin"></i>
             </a>
@@ -124,8 +126,18 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="icon"
+              title="GitHub"
             >
               <i className="fab fa-github"></i>
+            </a>
+            <a
+              href="https://leetcode.com/u/68GEZstDr4/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon"
+              title="LeetCode"
+            >
+              <i className="fas fa-code"></i>
             </a>
             <a
               href={resumeFile}
@@ -135,6 +147,7 @@ const Home = () => {
               Download Resume
             </a>
           </div>
+
           {/* Quick Access Section */}
           <div className="quick-access">
             <h2 className="quick-access-title">Explore</h2>
