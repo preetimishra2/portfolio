@@ -9,8 +9,9 @@ const About = () => {
         <h1 className="section-title">About Me</h1>
         <p className="summary-text">
           I am Preeti Mishra, a Software Developer with 4+ years of experience building scalable,
-          production-grade applications using React Native, ReactJS, NodeJS, and AWS. I have a strong
-          foundation in Data Structures & Algorithms, cloud development, and cross-platform design. I’m passionate about creating secure, high-performing, and user-focused software.
+          production-grade applications. I have a strong foundation in Data Structures & Algorithms,
+          cloud development, and cross-platform design. I’m passionate about creating secure, high-performing,
+          and user-focused software that drives impact.
         </p>
       </section>
 
@@ -56,10 +57,9 @@ const About = () => {
               company: "Accenture",
               date: "May 2021 – Present",
               tasks: [
-                "Built cross-platform apps using React Native, ReactJS, Node.js, and MongoDB.",
-                "Integrated RESTful APIs and third-party tools like Google Maps.",
-                "Led deployment and architecture design with a modular approach.",
-                "Worked in Agile teams using Jira, GitLab, and CI/CD practices.",
+                "Built and maintained enterprise-grade applications for global clients.",
+                "Led UI development and collaborated with cross-functional teams.",
+                "Delivered projects with high quality, performance, and timely deployment.",
               ],
             },
             {
@@ -67,9 +67,9 @@ const About = () => {
               company: "Accenture",
               date: "Earlier Phase within Accenture Role",
               tasks: [
-                "Created reusable web components using AEM and Vanilla JS.",
-                "Implemented Sling Models and templates for data-binding.",
-                "Maintained version-controlled pipelines with peer-reviewed code.",
+                "Created and enhanced dynamic web components.",
+                "Worked in agile teams and contributed to streamlined delivery cycles.",
+                "Focused on modular architecture and maintainable code practices.",
               ],
             },
             {
@@ -77,9 +77,9 @@ const About = () => {
               company: "HighRadius",
               date: "April 2020 – June 2020",
               tasks: [
-                "Developed a FinTech invoice management app using ReactJS and Java.",
-                "Created a dashboard with dynamic charts, filters, and real-time updates.",
-                "Integrated ML for payment prediction and a chatbot for invoice queries.",
+                "Developed a FinTech invoice dashboard for enterprise billing operations.",
+                "Implemented data visualizations and real-time updates.",
+                "Integrated a prediction model and chatbot for smart query handling.",
               ],
             },
             {
@@ -87,8 +87,8 @@ const About = () => {
               company: "IIT Bhubaneswar",
               date: "May 2019 – June 2019",
               tasks: [
-                "Built a React Native schedule app with SQL-based local storage.",
-                "Focused on performance, UI/UX clarity, and cross-platform support.",
+                "Created a scheduling app with offline data support.",
+                "Focused on performance optimization and clean UI/UX design.",
               ],
             },
           ].map((experience, index) => (
