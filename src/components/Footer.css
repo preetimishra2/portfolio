@@ -13,12 +13,7 @@
   line-height: 1.5;
 }
 
-.social-icons {
-  margin-top: 0.5rem;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
+
 
 .icon {
   font-size: 1.5rem;

@@ -8,10 +8,11 @@ const About = () => {
       <section className="summary-section">
         <h1 className="section-title">About Me</h1>
         <p className="summary-text">
-          I am Preeti Mishra, a Software Developer with 4+ years of experience building scalable,
-          production-grade applications. I have a strong foundation in Data Structures & Algorithms,
-          cloud development, and cross-platform design. I’m passionate about creating secure, high-performing,
-          and user-focused software that drives impact.
+          I am Preeti Mishra, a Software Developer with 4+ years of experience
+          building scalable, production-grade applications. I have a strong
+          foundation in Data Structures & Algorithms, cloud development, and
+          cross-platform design. I’m passionate about creating secure,
+          high-performing, and user-focused software that drives impact.
         </p>
       </section>
 
@@ -53,23 +54,31 @@ const About = () => {
         <div className="timeline">
           {[
             {
+              role: "Senior Full Stack Developer",
+              company: "Pratt and Whitney",
+              date: "May 2025 – Present",
+              tasks: [],
+            },
+            {
               role: "Custom Software Engineering Analyst",
               company: "Accenture",
-              date: "May 2021 – Present",
+              date: "May 2021 – September 2025",
               tasks: [
-                "Built and maintained enterprise-grade applications for global clients.",
-                "Led UI development and collaborated with cross-functional teams.",
-                "Delivered projects with high quality, performance, and timely deployment.",
+                "Developed a cross-platform web and mobile application using ReactJS, Node.js, Express, and MongoDB to manage product availability and user interactions",
+                "Enhanced user authentication using JWT tokens and role-based access control.",
+                "Implemented Redux, structured route handling, and middleware by integrating RESTful APIs; optimized data fetching logic, resulting in a 40% reduction in API calls and server load.",
+                "Mentored junior team members to build dynamic and scalable components, resolving critical defects and in collaborating with cross functional teams.",
+                "Responsible for showcasing/giving demo of the developed screens to the clients and other stake holders.",
               ],
             },
             {
               role: "Application Development Associate",
               company: "Accenture",
-              date: "Earlier Phase within Accenture Role",
+              date: "",
               tasks: [
-                "Created and enhanced dynamic web components.",
-                "Worked in agile teams and contributed to streamlined delivery cycles.",
-                "Focused on modular architecture and maintainable code practices.",
+                "Developed dynamic components using Adobe Experience Manager (AEM) and Vanilla JavaScript for enterprise content management.",
+                "Worked with third-party APIs (Google Maps) ensuring seamless integration.",
+                "Debugged and resolved complex issues related to browser compatibility and application performance,improving overall reliability.",
               ],
             },
             {
@@ -77,9 +86,7 @@ const About = () => {
               company: "HighRadius",
               date: "April 2020 – June 2020",
               tasks: [
-                "Developed a FinTech invoice dashboard for enterprise billing operations.",
-                "Implemented data visualizations and real-time updates.",
-                "Integrated a prediction model and chatbot for smart query handling.",
+                "Integrated an invoice management chatbot and ML model with ReactJS (frontend), Node JS and SQL(backend) featuring a responsive website with real time updates.",
               ],
             },
             {
@@ -87,8 +94,7 @@ const About = () => {
               company: "IIT Bhubaneswar",
               date: "May 2019 – June 2019",
               tasks: [
-                "Created a scheduling app with offline data support.",
-                "Focused on performance optimization and clean UI/UX design.",
+                "Created a schedule manager app using React Native. Prioritized performance optimization.",
               ],
             },
           ].map((experience, index) => (
@@ -132,7 +138,6 @@ const About = () => {
           <li>Client Value Creation Award – Accenture</li>
           <li>Nurturing Minds & Leadership Award – Accenture</li>
           <li>Selected for Mentorship – Teksystems (2021)</li>
-          <li>Qualified in Codevita National Coding Challenge – TCS (2021)</li>
         </ul>
       </section>
     </div>
